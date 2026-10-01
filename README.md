@@ -13,7 +13,7 @@ A minimal, top-down ASCII "Doom" engine written in 1C language, runnable via [On
 ### Option 1: Docker Compose (Recommended)
 
 ```bash
-docker compose up
+docker compose run --rm -i main
 ```
 
 ### Option 2: Local Execution
