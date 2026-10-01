@@ -1,0 +1,9 @@
+services:
+  main:
+    image: evilbeaver/onescript:latest
+    volumes:
+      - "./main.os:/app/main.os"
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    command: ["oscript", "main.os"]
