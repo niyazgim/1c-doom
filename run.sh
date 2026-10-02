@@ -6,6 +6,6 @@ if ! command -v oscript &> /dev/null; then
 fi
 
 echo "Starting DOOM (1C Edition)..."
-stty -icanon -echo
+stty -icanon -echo min 1 time 0
 oscript "$(dirname "$0")/main.os"
 stty sane
