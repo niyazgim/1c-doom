@@ -6,4 +6,4 @@ services:
     working_dir: /app
     stdin_open: true
     tty: true
-    command: ["oscript", "main.os"]
+    command: ["sh", "-c", "stty -icanon -echo 2>/dev/null; oscript main.os"]
