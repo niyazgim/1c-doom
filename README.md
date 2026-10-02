@@ -1,5 +1,7 @@
 # DOOM made on 1C (OneScript)
 
+[1C-Doom-demo-gh.webm](https://github.com/user-attachments/assets/40d40f6a-76a0-4c5c-9220-6c6eab6d98d7)
+
 A minimal, top-down ASCII "Doom" engine written in 1C language, runnable via [OneScript](https://github.com/EvilBeaver/OneScript) compiler.
 
 ## Important
