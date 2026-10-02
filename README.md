@@ -29,5 +29,5 @@ oscript doom.os
 ## Controls
 
 - `W`, `A`, `S`, `D` - Move
+- `Space` - Shoot
 - `Q` - Quit
-- `Enter` - Confirm move (required by standard library `ВвестиСтроку`)
